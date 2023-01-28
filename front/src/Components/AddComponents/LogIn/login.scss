@@ -1,0 +1,35 @@
+.generalform {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: rgb(158, 202, 187);
+
+    .generalinpformb {
+        display: flex;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .formbtn {
+            margin-top: 200px;
+            width: 200px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            padding: 13px;
+        }
+
+        .submitbtn {
+            margin-top: 200px;
+            width: 170px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 10px;
+            border: none;
+
+        }
+    }
+}

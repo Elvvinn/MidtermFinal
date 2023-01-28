@@ -1,0 +1,24 @@
+.footersect {
+    width: 100%;
+    min-height: 30vh;
+    background-color: rgb(236, 234, 234);
+
+    .generalfooter {
+        max-width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+
+        .footerul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            line-height: 30px;
+
+            .lift {
+                padding-top: 6vh;
+            }
+        }
+    }
+}

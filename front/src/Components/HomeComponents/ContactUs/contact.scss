@@ -1,0 +1,47 @@
+.contactsect {
+    margin-top: 140px;
+    width: 100%;
+    height: 40vh;
+
+    .generalcontactdiv {
+        max-width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+
+        .contacttext {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .generalinp {
+            display: flex;
+            flex-direction: column;
+
+            .inpcnt {
+                width: 323px;
+                height: 70px;
+                padding: 20px;
+            }
+
+            .inpct {
+                padding: 20px;
+            }
+
+            .btnsend {
+                margin-top: 20px;
+                width: 180px;
+                height: 45px;
+                border-color: red;
+                font-weight: bold;
+                cursor: pointer;
+                transition: .3s;
+
+                &:hover {
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+    }
+}
